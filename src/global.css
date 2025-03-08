@@ -1,0 +1,47 @@
+/* src/styles/global.css */
+
+/* Define CSS variables */
+:root {
+    --primary-color: #555B6E;   /* Dark Blue-Grey */
+    --secondary-color: #89B0AE; /* Muted Teal */
+    --accent-color: #BEE3DB;    /* Soft Green */
+    --background-color: #FAF9F9; /* Off-White */
+    --highlight-color: #FFD6BA;  /* Warm Peach */
+  
+    /* Text and Font */
+    --text-color: #333;
+    --font-size-base: 16px;
+    --font-size-lg: 18px;
+    --font-size-sm: 14px;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-size: var(--font-size-base);
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Utility Classes */
+  .text-primary {
+    color: var(--primary-color);
+  }
+  
+  .text-secondary {
+    color: var(--secondary-color);
+  }
+  
+  .bg-primary {
+    background-color: var(--primary-color);
+  }
+  
+  .bg-secondary {
+    background-color: var(--secondary-color);
+  }
+  
+  .bg-accent {
+    background-color: var(--accent-color);
+  }
+  

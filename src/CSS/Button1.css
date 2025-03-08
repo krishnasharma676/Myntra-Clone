@@ -1,0 +1,21 @@
+/* src/components/Button.css */
+.btn {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: var(--font-size-lg);
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: var(--secondary-color);
+  }
+  
+  .btn.accent {
+    background-color: var(--highlight-color);
+    color: var(--primary-color);
+  }
+  
